@@ -258,19 +258,19 @@ img {
 /* Formulaire */
 .vp-formulaire {
   height: 700px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  text-align: start;
 }
 
 .formulaire {
-  margin: 150px 20px 100px 150px;
+  margin: 150px 20px 100px 200px;
+
 }
 
 .label-text {
   font-weight: bold;
-  font-size: 20px;
+  font-size: 20px; 
+  display: block;
+  text-align: start;
+  
 }
 
 input {
@@ -282,9 +282,12 @@ input {
 }
 
 textarea {
-  width: 100%;
+  width: 80%;
   margin: 10px 0 50px 0;
   border: 1px solid #a1a1a1;
 }
 
-
+.send{
+  justify-content: center;
+  display: flex;
+}
