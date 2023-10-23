@@ -206,11 +206,11 @@ footer {
 /* Localisation */
 
 .map-content {
-  margin: 200px 0 200PX 0;
+  margin: 150px 50px 50px  50px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  min-height: 100vh;
+  min-height: 700px;
  
 }
 
