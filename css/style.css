@@ -206,11 +206,13 @@ footer {
 /* Localisation */
 
 .map-content {
-  margin: 150px 50px 50px 50px;
+  margin: 50px 50px 50px 50px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   min-height: 700px;
+  align-items: center;
+
 
 }
 
@@ -303,17 +305,19 @@ textarea {
   color: #0c0c0c;
   /*un 1vh=100%* pour prendre la taille complète de l'image*/
   height: 100vh;
-  
+
 }
 
-.content{
+.content {
   max-width: 600px;
   text-align: center;
   margin: auto;
-  padding-top:150px ;
+  padding-top: 150px;
 }
 
 
-h2 *{
+h2 * {
   color: yellow;
 }
+
+  

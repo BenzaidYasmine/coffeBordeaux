@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+
+
+    <style>
+        /* Le layout */
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+
+        .contain {
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            background-color: green;
+        }
+
+        .head {
+            height: 4rem;
+            background-color: red;
+
+        }
+
+        .boddy {
+            display: flex;
+            flex-direction: row;
+            flex: 1;
+            height: auto;
+            align-items: stretch;
+
+        }
+
+
+        .side-droit {
+            background-color: yellow;
+            flex: auto;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+
+        .item-droit {
+            height: 200px;
+            width: 200px;
+            background-color: purple;
+            margin: 20px;
+        }
+
+        .side-gauche {
+            background-color: orange;
+            flex-basis: 150px;
+            display: flex;
+            flex-direction: column;
+
+        }
+
+        .item-gauche {
+            background-color: rgb(58, 149, 190);
+            flex-basis: 50px;
+            width: 150px;
+            margin: 5px;
+            align-content: flex-start;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div class="contain">
+        <div class="head"></div>
+        <div class="boddy">
+            <div class="side-gauche">
+                <div class="item-gauche">1</div>
+                <div class="item-gauche">2</div>
+                <div class="item-gauche">3</div>
+                <div class="item-gauche">4</div>
+                <div class="item-gauche">5</div>
+            </div>
+            <div class="side-droit">
+                <div class="carre item-droit">1</div>
+                <div class="carre item-droit">2</div>
+                <div class="carre item-droit">3</div>
+                <div class="carre item-droit">4</div>
+                <div class="carre item-droit">5</div>
+                <div class="carre item-droit">6</div>
+                <div class="carre item-droit">7</div>
+                <div class="carre item-droit">8</div>
+                <div class="carre item-droit">9</div>
+                <div class="carre item-droit">10</div>
+
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+</body>
+
+</html>
